@@ -14,7 +14,7 @@
     "url": "git+https://github.com/mastroevan/node-html-css-webpack-template.git"
   },
   "author": "Evan Mastro",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mastroevan/node-html-css-webpack-template/issues"
   },
