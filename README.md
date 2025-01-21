@@ -35,6 +35,7 @@ This will launch a development server at http://localhost:8080.
 ---
 
 ## Project Structure
+```
 node-html-css-webpack-template/
 ├── src/
 │   ├── __tests__/          # Test files
@@ -47,7 +48,7 @@ node-html-css-webpack-template/
 ├── package.json            # Node.js configuration and scripts
 ├── webpack.config.js       # Webpack configuration
 └── README.md               # Project documentation
-
+```
 ---
 
 ## Scripts
