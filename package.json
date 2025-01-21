@@ -1,0 +1,42 @@
+{
+  "name": "html-css-webpack-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastroevan/node-html-css-webpack-template.git"
+  },
+  "author": "Evan Mastro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastroevan/node-html-css-webpack-template/issues"
+  },
+  "homepage": "https://github.com/mastroevan/node-html-css-webpack-template#readme",
+  "description": "A template repository for projects using HTML, CSS. Node, and Webpack",
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
